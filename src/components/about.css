@@ -1,0 +1,45 @@
+.ourteam_text{
+color: #47CFDF; font-size:30px; font-weight:600;
+}
+.about_card{
+  /* max-width:100% !important;  */
+  height: 100% !important;  
+  box-shadow: 0px 10px 10px #C5C3F926 !important;
+}
+.about_img{
+    /* height: 350px; */
+}
+.about_card_title {
+    font: normal normal 800 18px/26px Raleway !important;
+    letter-spacing: 2.86px !important;
+    color: #5a5454 !important;
+    text-transform: uppercase !important;
+  }
+  .about_card_subtitle{
+      font: normal normal normal 15px/20px Raleway !important;
+      letter-spacing: 1.08px !important;
+      color: #747474 !important;
+      text-transform: uppercase !important;
+  }
+  .about_card_desc{
+      font:normal normal normal 10px/20px Raleway !important;
+      color: #747474 !important;
+      text-transform:uppercase !important;
+      margin-bottom: 1.5rem !important;
+  }
+
+  @media screen and (min-width:1600px) and (max-width:2800px) {
+    .ourteam_text{
+         font-size:60px; 
+        }
+    .about_card_title{
+        font: normal normal 800 26px/36px Raleway !important;
+    }
+    .about_card_subtitle{
+        font: normal normal normal 26px/36px Raleway !important;
+    }
+    .about_card_desc{
+        font: normal normal normal 18px/35px Raleway !important;
+    }
+  }
+

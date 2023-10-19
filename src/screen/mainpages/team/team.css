@@ -1,0 +1,50 @@
+.team_back {
+    background: #F3F3F3 0% 0% no-repeat padding-box !important;
+    padding-bottom: 2rem;
+}
+
+.display_setting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_team_text {
+    margin-top: 5rem;
+}
+
+@media screen and (min-width:1600px) and (max-width:2800px) {
+
+    .meet_text {
+        font: normal normal 900 67px/71px Raleway !important;
+    }
+
+    .meet_text2 {
+        font: normal normal bold 67px/71px Raleway !important;
+    }
+
+    .manage_text {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .team_back {
+        padding-bottom: 1rem;
+    }
+
+    .main_team_text {
+        margin-top: 2rem !important;
+    }
+
+    .meet_text {
+        font-size: 37px !important;
+    }
+
+    .meet_text2 {
+        font-size: 37px !important;
+    }
+
+    .manage_text {
+        font-size: 15px !important;
+    }
+}

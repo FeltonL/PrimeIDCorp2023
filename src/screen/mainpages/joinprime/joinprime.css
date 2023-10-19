@@ -1,0 +1,10 @@
+.join_prime_img{
+    margin-top: -2rem;
+    margin-bottom: 3rem;  
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .join_prime_img{
+        margin-top: -1rem;
+    }
+}

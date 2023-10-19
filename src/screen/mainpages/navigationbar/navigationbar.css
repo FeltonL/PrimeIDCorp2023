@@ -1,0 +1,56 @@
+.nav_main {
+  margin: 0;
+}
+
+.nav_logo {
+  width: 50%;
+}
+
+.navbar {
+  position: relative;
+}
+
+.nav_image {
+  width: 80%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: -11;
+}
+
+.nav_text a {
+  text-decoration: none;
+  color: #ffffff !important;
+  font: normal normal 600 14px Raleway;
+  padding: 0 1.8rem !important;
+}
+
+@media screen and (min-width:1600px) and (max-width:2800px) {
+  .nav_logo {
+    width: 100% !important;
+  }
+
+  .nav_text a {
+    font: normal normal bold 1.5rem Raleway !important;
+    padding: 0 4rem !important;
+  }
+
+  .nav_image {
+    height: 25%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .nav_text a {
+    color: #1abdc9 !important;
+    font: normal normal bold 15px Raleway !important;
+    text-align: center !important;
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .nav_logo {
+    width: 120px;
+  }
+}

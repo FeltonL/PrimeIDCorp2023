@@ -1,0 +1,57 @@
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 10px;
+}
+
+.carousel_card_title {
+  font: normal normal 800 13px/26px Raleway !important;
+  letter-spacing: 2.86px;
+  color: #5a5454;
+  text-transform: uppercase;
+}
+.carousel_card_subtitle{
+    font: normal normal normal 12px/20px Raleway !important;
+    letter-spacing: 1.08px;
+    color: #747474;
+    text-transform: uppercase;
+}
+.carousel_card_desc{
+    font:normal normal normal 8px/20px Raleway !important;
+    color: #747474;
+    text-transform:uppercase;
+}
+
+/* .carousel_slider {
+  max-width: 800px;
+} */
+.content_align{
+  padding: 16px !important;
+}
+.carousel_card {
+  height: 480px !important;
+  box-shadow:0px 10px 10px #C5C3F926 !important;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2800px) {
+ 
+  .carousel_card {
+    height:750px !important;
+    box-shadow:0px 10px 10px #C5C3F926 !important;
+  }
+  .carousel_card_title {
+    font: normal normal 800 25px/26px Raleway !important;
+  }
+  .carousel_card_subtitle{
+    font: normal normal normal 20px/28px Raleway !important;
+}
+.carousel_card_desc{
+    font: normal normal normal 15px/28px Raleway !important;
+    margin-bottom: 1rem !important;
+
+}
+  .slick-slide > div {
+    padding: 0 20px;
+  }
+}
