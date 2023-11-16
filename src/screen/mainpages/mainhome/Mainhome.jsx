@@ -16,29 +16,46 @@ const MainHome = () => {
           <Col xs="12" sm="12" md="6" lg="6">
             <Box
               style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "flex-start",
-                height: "100%",
-              }}>
-              <img src={Secureweb} alt="Secureweb" style={{ width: "60%" }} />
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'flex-start',
+                height: '100%',
+              }}
+            >
+              {/* <img src={Secureweb} alt="Secureweb" style={{ width: '60%' }} /> */}
+              <h1
+                style={{
+                  fontSize: '70px',
+                  fontWeight: 900,
+                  color: '#474A54',
+                  lineHeight: '70px',
+                  fontFamily: 'sans-serif',
+                }}
+              >
+                The Future of{' '}
+                <span style={{ color: '#35C8D6' }}>
+                  Virtual ID
+                </span>
+              </h1>
               <Box>
                 <Typography variant="" className="home_text">
-                  <b>PrimeID™</b> is your trusted online identity
+                  {/* <b>PrimeID™</b>  is your trusted online identity */}
+                  <b>PrimeID™</b> is the ideal solution for verification of new
+                  people being onboarded into businesses, applications or teams.
                 </Typography>
                 <Typography className="home_text2">
-                  The <b>PrimeID™ </b> platform enables teams to <br />
-                  authenticate Founders and Team Members <br /> and enables them
-                  to communicate in a <br /> secure way.
-                </Typography><br />
+                  The <b>PrimeID™ </b> also serves as an authentication method
+                  for returning user to those entities and applications.
+                </Typography>
+                <br />
               </Box>
             </Box>
           </Col>
           <Col xs="12" sm="12" md="6" lg="6">
             <Box className="dcenter">
-              {/* <img src={HomeVector} alt="HomeVector" className="home_vector" /> */}
-              <YoutubeVideo/>
+              <img src={HomeVector} alt="HomeVector" className="home_vector" />
+              {/* <YoutubeVideo /> */}
             </Box>
           </Col>
         </Row>
