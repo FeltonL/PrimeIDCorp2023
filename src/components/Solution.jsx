@@ -41,7 +41,7 @@ const Solution = () => {
           <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a> */}
         <a href="https://drive.google.com/file/d/1lg5sOogBtNvgkUUPW-M-iyp8cOqNNqiW/view?usp=drive_link" download target="_blank" rel="noreferrer">
-          <Button className="solution_btn">READ OUR ONE PAGER.</Button>
+          <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a>
       </Typography>
       <Row className="">
