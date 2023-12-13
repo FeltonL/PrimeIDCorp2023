@@ -5,8 +5,8 @@ import Col from 'react-bootstrap/Col';
 
 import ProblemImg from '../assets/problem.png';
 import SolutionImg from '../assets/solution.png';
-// import PrimePdf from "../assets/primepager.pdf"
-import PrimePdf from "../assets/PrimeID-One-Page-Primer.pdf"
+import PrimePdf from "../assets/primepager.pdf"
+// import PrimePdf from "../assets/PrimeID-One-Page-Primer.pdf"
 // import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
@@ -36,7 +36,7 @@ const Solution = () => {
           cursor: 'pointer',
         }}
       >
-        <Link to={PrimePdf}  target="_blank" ><Button className='solution_btn'>READ OUR ONE PAGER.</Button></Link>
+        <Link to={PrimePdf}  target="_blank" ><Button className='solution_btn'>READ OUR ONE PAGER</Button></Link>
         {/* <a href="/PrimeID-One-Page-Primer.pdf" download target="_blank">
           <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a> */}
