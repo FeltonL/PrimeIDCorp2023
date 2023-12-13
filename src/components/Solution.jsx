@@ -40,7 +40,7 @@ const Solution = () => {
         {/* <a href={PrimePdf} download target="_blank" rel="noreferrer">
           <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a> */}
-        <a href="/PrimeID-One-Page-Primer.pdf" download target="_blank">
+        <a href="/static/media/PrimeID-One-Page-Primer.pdf" download target="_blank">
           <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a>
       </Typography>
