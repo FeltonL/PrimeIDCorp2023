@@ -36,10 +36,10 @@ const Solution = () => {
           cursor: 'pointer',
         }}
       >
-        <Link to={PrimePdf}  target="_blank" ><Button className='solution_btn'>READ OUR ONE PAGER</Button></Link>
-        {/* <a href="/PrimeID-One-Page-Primer.pdf" download target="_blank">
-          <Button className="solution_btn">READ OUR ONE PAGER</Button>
-        </a> */}
+        <Link to={PrimePdf} target="_blank" download ><Button className='solution_btn'>READ OUR ONE PAGER</Button></Link>
+        <a href="/PrimeID-One-Page-Primer.pdf" download target="_blank">
+          <Button className="solution_btn">READ OUR ONE PAGER.</Button>
+        </a>
       </Typography>
       <Row className="">
         {data.map(({ id, img1, img2, headText1, headText2, para1, para2 }) => {
