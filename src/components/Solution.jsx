@@ -37,11 +37,11 @@ const Solution = () => {
         }}
       >
         {/* <Link to={PrimePdf} target="_blank" download ><Button className='solution_btn'>READ OUR ONE PAGER</Button></Link> */}
-        <a href={PrimePdf} download target="_blank" rel="noreferrer">
+        {/* <a href={PrimePdf} download target="_blank" rel="noreferrer">
           <Button className="solution_btn">READ OUR ONE PAGER</Button>
-        </a>
+        </a> */}
         <a href="/PrimeID-One-Page-Primer.pdf" download target="_blank">
-          <Button className="solution_btn">READ OUR ONE PAGER.</Button>
+          <Button className="solution_btn">READ OUR ONE PAGER</Button>
         </a>
       </Typography>
       <Row className="">
